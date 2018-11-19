@@ -14,14 +14,4 @@ CREATE TABLE `accounts` (
   `accid` varchar(45) NOT NULL,
   `accpass` varchar(250) NOT NULL,
   `accurl` varchar(150) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
-
-
-CREATE TABLE `nodejs_login`.`accounts` (
-  `username` VARCHAR(50) NOT NULL,
-  `accname` VARCHAR(45) NOT NULL,
-  `accid` VARCHAR(45) NOT NULL,
-  `accpass` VARCHAR(250) NOT NULL,
-  `accurl` VARCHAR(150) 
- );
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
